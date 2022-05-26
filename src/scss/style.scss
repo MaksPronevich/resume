@@ -1,0 +1,17 @@
+@import '../../node_modules/tippy.js/dist/tippy';
+@import 'vars';
+@import 'mixins';
+@import 'settings';
+
+//blocks
+@import 'blocks/different';
+@import 'blocks/wrapper';
+@import 'blocks/sidebar';
+@import 'blocks/header';
+@import 'blocks/main';
+@import 'blocks/sections';
+
+@import 'blocks/education';
+@import 'blocks/technologies';
+@import 'blocks/projects';
+@import 'blocks/hobbies';

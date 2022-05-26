@@ -1,0 +1,34 @@
+.education {
+	&__wrap {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	&__title {
+		margin-bottom: 30px;
+	}
+
+	&__item {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		// border-bottom: 1px solid $gray;
+		margin-bottom: 30px;
+		padding-bottom: 10px;
+	}
+
+	&__item-logo {
+	}
+
+	&__item-text {
+		margin: 8px 0px;
+	}
+
+	&__item-label {
+		// color: $dark-gray;
+		background-color: $gray;
+		padding: 3px 8px;
+		border-radius: 5px;
+		user-select: none;
+	}
+}

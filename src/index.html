@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+	@@include('components/head.html', {"title": "Maksim Pronevich"})
+	<body>
+		<div class="wrapper">
+			<!-- sidebar -->
+			<aside class="sidebar">
+				<div class="sidebar-photo">
+					<img src="@img/photo.png" alt="Maksim Pronevich" />
+				</div>
+				<div class="sidebar-info">
+					<div class="sidebar-info__element">
+						<h2 class="sidebar-info__title">about me</h2>
+						<div class="sidebar-info__divider"></div>
+						<p class="sidebar-info__text">
+							I am engaged in the development of sites and web interfaces using modern web technologies such as: HTML, Bootstrap, Tailwindcss, JavaScript, React.
+						</p>
+					</div>
+					<div class="sidebar-info__element">
+						<h2 class="sidebar-info__title">languages</h2>
+						<div class="sidebar-info__divider"></div>
+						<ul class="sidebar-info__list">
+							<li class="sidebar-info__item">Russian</li>
+							<li class="sidebar-info__item">English</li>
+						</ul>
+					</div>
+					<div class="sidebar-info__element">
+						<h2 class="sidebar-info__title">contacts</h2>
+						<div class="sidebar-info__divider"></div>
+						<ul class="sidebar-info__list">
+							<li class="sidebar-info__item">
+								<a href="mailto:maks.pronevich@gmail.com" class="sidebar-info__link">
+									<img src="@img/socials/mail.svg" alt="mail" />
+									<span>maks.pronevich@gmail.com</span>
+								</a>
+							</li>
+							<li class="sidebar-info__item">
+								<a href="tel:+375(33)320-36-35" class="sidebar-info__link">
+									<img src="@img/socials/phone.svg" alt="phone" />
+									<span>+375 33 320 36 35</span>
+								</a>
+							</li>
+							<li class="sidebar-info__item">
+								<a href="https://www.linkedin.com/in/maksim-pronevich-280938193/" class="sidebar-info__link" target="_blank">
+									<img src="@img/socials/linkedin.svg" alt="linkedin" />
+									<span>Linkedin</span>
+								</a>
+							</li>
+							<li class="sidebar-info__item">
+								<a href="https://vk.com/pronevich99" class="sidebar-info__link" target="_blank">
+									<img src="@img/socials/vk.svg" alt="vkontakte" />
+									<span>VKontakte</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</aside>
+			<!-- /sidebar -->
+
+			<!-- header -->
+			<header class="header">
+				<div class="header-intro">
+					<h1 class="header-intro__main-title">Maksim<br /><span>Pronevich</span></h1>
+					<div class="header-intro__divider"></div>
+					<h2 class="header-intro__title">Frontend developer</h2>
+					<div class="circle circle--intro"></div>
+				</div>
+			</header>
+			<!-- /header -->
+
+			<!-- main-content -->
+			<main class="main">
+				<!-- tab-nav -->
+				<nav class="tab-nav">
+					<ul class="tab-nav__list">
+						<li class="tab-nav__item">
+							<a href="#" class="tab-nav__link">
+								<i class="fas fa-university"></i>
+								<span>Education</span>
+							</a>
+						</li>
+						<li class="tab-nav__item">
+							<a href="#" class="tab-nav__link">
+								<i class="fas fa-tools"></i>
+								<span>Technologies</span>
+							</a>
+						</li>
+						<li class="tab-nav__item">
+							<a href="#" class="tab-nav__link active">
+								<i class="fas fa-code"></i>
+								<span>Projects</span>
+							</a>
+						</li>
+						<li class="tab-nav__item">
+							<a href="#" class="tab-nav__link">
+								<i class="fas fa-biking"></i>
+								<span>Hobbies</span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<!-- /tab-nav -->
+
+				<!-- education -->
+				<section class="section education">
+					<div class="education__wrap">
+						<div class="education__left-col">
+							<h3 class="education__title">Education:</h3>
+							<div class="education__item">
+								<a href="https://bntu.by/" target="_blank">
+									<img class="education__item-logo" src="@img/education/bntu.svg" width="40" height="40" alt="bntu" />
+								</a>
+								<p class="education__item-text">September 2016 - June 2020</p>
+								<span class="education__item-label">Teacher-programmer</span>
+							</div>
+						</div>
+						<div class="education__right-col">
+							<h3 class="education__title">Work experience:</h3>
+							<div class="education__item">
+								<a href="https://bntu.by/" target="_blank">
+									<img class="education__item-logo" src="@img/education/bntu.svg" width="40" height="40" alt="bntu" />
+								</a>
+
+								<p class="education__item-text">July 2020 - August 2021</p>
+								<span class="education__item-label">Programmer</span>
+							</div>
+							<div class="education__item">
+								<a href="https://kano.by/" target="_blank">
+									<img class="education__item-logo" src="@img/education/kano.svg" width="84" height="20" alt="kano" />
+								</a>
+								<p class="education__item-text">August 2021 - present time</p>
+								<span class="education__item-label">Frontend developer</span>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- /education -->
+
+				<!-- technologies -->
+				<section class="section technologies">
+					<ul class="technologies__wrap">
+						<li class="technologies__item">
+							<img src="@img/technologies/html.svg" alt="html" />
+						</li>
+						<li class="technologies__item">
+							<img src="@img/technologies/css3.svg" alt="css" />
+						</li>
+						<li class="technologies__item">
+							<img src="@img/technologies/sass.svg" alt="sass" />
+						</li>
+						<li class="technologies__item">
+							<img src="@img/technologies/bootstrap.svg" alt="bootstrap" />
+						</li>
+						<li class="technologies__item">
+							<img src="@img/technologies/materialize.svg" alt="materialize" />
+						</li>
+						<li class="technologies__item">
+							<img src="@img/technologies/tailwindcss.svg" alt="tailwindcss" />
+						</li>
+						<li class="technologies__item">
+							<img src="@img/technologies/javascript.svg" alt="javascript" />
+						</li>
+						<li class="technologies__item">
+							<img src="@img/technologies/react.svg" alt="react" />
+						</li>
+						<!-- <li class="technologies__item">
+							<img src="@img/technologies/redux.svg" alt="redux" />
+						</li> -->
+						<li class="technologies__item">
+							<img src="@img/technologies/git.svg" alt="git" />
+						</li>
+						<li class="technologies__item">
+							<img src="@img/technologies/npm.svg" alt="npm" />
+						</li>
+						<li class="technologies__item">
+							<img src="@img/technologies/gulp.svg" alt="gulp" />
+						</li>
+						<li class="technologies__item">
+							<img src="@img/technologies/webpack.svg" alt="webpack" />
+						</li>
+						<li class="technologies__item">
+							<img src="@img/technologies/babel.svg" alt="babel" />
+						</li>
+						<!-- <li class="technologies__item">
+							<img src="@img/technologies/typescript.svg" alt="typescript" />
+						</li>
+						<li class="technologies__item">
+							<img src="@img/technologies/nextjs.svg" alt="next.js" />
+						</li> -->
+					</ul>
+					<h2 class="technologies__title">More technologies:</h2>
+					<div class="technologies__wrap-more">
+						<div class="technologies__list-wrap">
+							<h3 class="technologies__list-title">HTML</h3>
+							<ul class="technologies__list">
+								<li class="technologies__list-item">Semantic HTML</li>
+							</ul>
+						</div>
+						<div class="technologies__list-wrap">
+							<h3 class="technologies__list-title">CSS</h3>
+							<ul class="technologies__list">
+								<li class="technologies__list-item">Responsive and adaptive design</li>
+								<li class="technologies__list-item">CSS Grid</li>
+								<li class="technologies__list-item">CSS Flexbox</li>
+								<li class="technologies__list-item">BEM</li>
+							</ul>
+						</div>
+						<div class="technologies__list-wrap">
+							<h3 class="technologies__list-title">JavaScript</h3>
+							<ul class="technologies__list">
+								<li class="technologies__list-item">ECMAScript 6</li>
+								<!-- <li class="technologies__list-item">Jest</li> -->
+							</ul>
+						</div>
+						<div class="technologies__list-wrap">
+							<h3 class="technologies__list-title">Others</h3>
+							<ul class="technologies__list">
+								<li class="technologies__list-item">CMS Wordpress</li>
+								<li class="technologies__list-item">CMS MODX</li>
+								<li class="technologies__list-item">Adobe Photoshop</li>
+								<li class="technologies__list-item">Figma</li>
+								<li class="technologies__list-item">Adobe XD</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<!-- /technologies -->
+
+				<!-- projects -->
+				<section class="section projects active">
+					<div class="projects__wrap">
+						<div class="projects__item">
+							<div class="projects__item-img">
+								<img src="@img/projects/movies.png" alt="Movies" />
+							</div>
+							<div class="projects__item-content">
+								<a href="https://makspronevich.github.io/movies/" class="projects__item-btn" target="_blank"> View </a>
+							</div>
+						</div>
+						<div class="projects__item">
+							<div class="projects__item-img">
+								<img src="@img/projects/implantolog.png" alt="Implantolog" />
+							</div>
+							<div class="projects__item-content">
+								<a href="https://makspronevich.github.io/implantolog/dist/index.html" class="projects__item-btn" target="_blank"> View </a>
+							</div>
+						</div>
+						<div class="projects__item">
+							<div class="projects__item-img">
+								<img src="@img/projects/medexport.png" alt="Medexport" />
+							</div>
+							<div class="projects__item-content">
+								<a href="http://medexport.by/" class="projects__item-btn" target="_blank"> View </a>
+							</div>
+						</div>
+						<div class="projects__item">
+							<div class="projects__item-img">
+								<img src="@img/projects/kano.png" alt="KANO" />
+							</div>
+							<div class="projects__item-content">
+								<a href="https://kano.by/implantaciya-zubov-v-minske" class="projects__item-btn" target="_blank"> View </a>
+							</div>
+						</div>
+						<div class="projects__item">
+							<div class="projects__item-img">
+								<img src="@img/projects/elitemed.png" alt="elitemed" />
+							</div>
+							<div class="projects__item-content">
+								<a href="https://elitemed.by/lecheniye-raka-legkikh-v-evrope" class="projects__item-btn" target="_blank"> View </a>
+							</div>
+						</div>
+						<div class="projects__item">
+							<div class="projects__item-img">
+								<img src="@img/projects/portfolio.png" alt="portfolio" />
+							</div>
+							<div class="projects__item-content">
+								<a href="https://makspronevich.github.io/portfolio/dist/index.html" class="projects__item-btn" target="_blank"> View </a>
+							</div>
+						</div>
+						<div class="projects__item">
+							<div class="projects__item-img">
+								<img src="@img/projects/iide.png" alt="iide" />
+							</div>
+							<div class="projects__item-content">
+								<a href="https://makspronevich.github.io/iide" class="projects__item-btn" target="_blank"> View </a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- /projects -->
+
+				<!-- hobbies -->
+				<section class="section hobbies">
+					<ul class="hobbies__list">
+						<li class="hobbies__item">
+							<span class="hobbies__item-icon">
+								<i class="fas fa-book"></i>
+							</span>
+							<span class="hobbies__item-text">Books</span>
+						</li>
+						<li class="hobbies__item">
+							<span class="hobbies__item-icon">
+								<i class="fas fa-music"></i>
+							</span>
+							<span class="hobbies__item-text">Music</span>
+						</li>
+						<li class="hobbies__item">
+							<span class="hobbies__item-icon">
+								<i class="fas fa-tools"></i>
+							</span>
+							<span class="hobbies__item-text">Modeling</span>
+						</li>
+						<li class="hobbies__item">
+							<span class="hobbies__item-icon">
+								<i class="fas fa-film"></i>
+							</span>
+							<span class="hobbies__item-text">Movie</span>
+						</li>
+						<li class="hobbies__item">
+							<span class="hobbies__item-icon">
+								<i class="fas fa-running"></i>
+							</span>
+							<span class="hobbies__item-text">Sport</span>
+						</li>
+					</ul>
+				</section>
+				<!-- /hobbies -->
+			</main>
+			<!-- /main-content -->
+		</div>
+
+		<!-- floating-link -->
+		<a href="https://github.com/MaksPronevich" class="floating-link" target="_blank">
+			<img src="@img/github.svg" alt="github" />
+		</a>
+
+		<script src="js/index.js"></script>
+	</body>
+</html>

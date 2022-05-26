@@ -1,0 +1,37 @@
+.header {
+	grid-area: header;
+	background-color: $white;
+}
+
+.header-intro {
+	padding-top: 75px;
+	text-align: center;
+	position: relative;
+
+	&__main-title {
+		font-size: 4.286rem;
+		font-weight: $fw-regular;
+		line-height: 80%;
+		text-transform: uppercase;
+
+		span {
+			font-size: 2.857rem;
+			font-weight: $fw-bold;
+		}
+	}
+
+	&__divider {
+		width: 80%;
+		border: 4px solid $yellow;
+		margin: 5px 0px;
+	}
+
+	&__title {
+		font-size: 2rem;
+		font-weight: $fw-light;
+	}
+
+	@include media-breakpoint-down($md) {
+		padding-bottom: 30px;
+	}
+}

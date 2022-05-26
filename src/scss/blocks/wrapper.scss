@@ -1,0 +1,20 @@
+.wrapper {
+	display: grid;
+	grid-template-columns: 320px 1fr;
+	grid-template-rows: auto 1fr;
+	grid-template-areas:
+		'sidebar header'
+		'sidebar content';
+	margin: auto;
+	width: 1100px;
+	box-shadow: 0px 0px 25px $black;
+
+	@include media-breakpoint-down($md) {
+		grid-template-areas:
+			'header'
+			'sidebar'
+			'content';
+		grid-template-columns: 1fr;
+		grid-template-rows: auto auto auto;
+	}
+}

@@ -1,0 +1,16 @@
+.section {
+	padding-top: 50px;
+	display: none;
+
+	&.active {
+		display: block;
+	}
+
+	&.education {
+		padding-top: 30px;
+	}
+
+	&.hobbies {
+		padding-top: 30px;
+	}
+}

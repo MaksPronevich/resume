@@ -1,0 +1,10 @@
+.main {
+	background-color: $white;
+	padding: 30px;
+	grid-area: content;
+	position: relative;
+
+	@include media-breakpoint-down($sm) {
+		padding: 15px 15px 30px 15px;
+	}
+}
